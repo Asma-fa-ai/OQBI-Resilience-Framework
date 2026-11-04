@@ -10,7 +10,7 @@ Each deck is a single HTML file. Logos, photos and the typeface are embedded, so
 |---|---|---|
 | `version-1/` | OQBI Resilience Framework - Conference Deck.html | 14 slides, including a stand-alone "How were we able to do that?" slide. Dark Sea-green stage with a slow 3D network background and OQBi brand colours throughout. |
 | `version-2/` | OQBI Resilience Framework - Conference Deck V2.html | 17 slides. Black stage with a pool of light, numbered chapter cards, takeaway headlines, mostly white and grey with OQBi orange as the accent, and one idea per click. |
-| `version-3/` | OQBI Resilience Framework - Conference Deck V3.html | 14 slides. Version 1 with a living 3D world of glowing particles that reshapes for every slide (cave, storm, burst, ocean, gap, rings, bridge, round table, grid, pyramid, ripple, rising columns, radar sweep, embers) and a chapter light tube along the bottom. Needs a laptop with WebGL (any modern Chrome). |
+| `version-3/` | OQBI Resilience Framework - Conference Deck V3.html | 14 slides in Monsoon, Sand and Aqua. Version 1 with a living 3D world of glowing particles that reshapes for every slide (cave, storm, burst, ocean, gap, rings, bridge, round table, grid, pyramid, ripple, rising columns, radar sweep, embers) and a chapter light tube along the bottom. Needs a laptop with WebGL (any modern Chrome). |
 
 ## Presenting
 
