@@ -557,6 +557,7 @@ body.gl #field { display: none; }
 .steady { stroke: #00adbb; filter: drop-shadow(0 0 10px rgba(0, 173, 187, .95)); }
 .w1 .mk circle { fill: #0b0f1c; stroke: #00adbb; } .w1 .mk g { stroke: #ede7dc; } .w1 .mk text { fill: #ede7dc; }
 
+#world, #field, .ember { display: none !important; }
 @media (prefers-reduced-motion: reduce) {
   .slide, .slide.active { transition-duration: .01s !important; }
   *, *::before, *::after { animation-duration: .01s !important; animation-iteration-count: 1 !important; }
@@ -830,6 +831,7 @@ function fit() { const s = Math.min(innerWidth / 1280, innerHeight / 768); stage
 /* ---------- the living world: ~4,000 glowing particles that take a new shape for every slide ---------- */
 const WORLD = (() => {
   const cv = document.getElementById('world');
+  cv.style.display = 'none'; return null;
   let gl = null;
   try { gl = cv.getContext('webgl', { alpha: true, antialias: false, premultipliedAlpha: true }); } catch (e) {}
   if (!gl) { cv.style.display = 'none'; return null; }
@@ -1019,7 +1021,6 @@ const field = (() => {
     }
     requestAnimationFrame(frame);
   }
-  if (!WORLD) requestAnimationFrame(frame);
   return { resize, kick(d) { warp = reduce ? 0 : 1.5; }, setMood(m) { mood = m || 'calm'; } };
 })();
 
