@@ -23,6 +23,7 @@ Open the file in Chrome, then:
 | F | Full screen |
 | B | Black screen |
 | E | Edit slide titles (saved in the browser on that computer) |
+| H | Show or hide the control bar (version 1 keeps it hidden during the talk; it also appears when the mouse reaches the bottom edge) |
 
 The deck scales to any window and fills a 1280 × 768 screen exactly in full screen.
 
